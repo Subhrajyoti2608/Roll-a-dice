@@ -39,7 +39,7 @@ while dice:
         print("[0   0]")
         print("[0   0]")
         print("[-----]")
-    another_roll = input("Want to roll the dice again? (y/n): ")
+    another_roll = input("Press y to roll again and n to exit: ")
     if another_roll.lower() == "y":
         continue
     else:
